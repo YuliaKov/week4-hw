@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./assets/images/logo.png" alt="Logo" />
+      <nav>
+        <ul>
+          <li><a class="menu" href="#">Услуги</a></li>
+          <li><a class="menu" href="#">Продукция</a></li>
+          <li><a class="menu" href="#">О компании</a></li>
+          <li><a class="menu" href="#">Портфолио</a></li>
+          <li><a class="menu" href="#">Вопрос-ответ</a></li>
+          <li><a class="menu" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="buttons">
+        <button id="application">
+          <img class="icon" src="./assets/images/Application.svg" alt="" />
+          <span class="text"> Заявка на замер </span>
+        </button>
+        <button id="order">
+          <img class="icon" src="./assets/images/order.svg" alt="" />
+          <span class="text"> Заказать расчет </span>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="advantages">
+        <div class="slogan">
+          <p id="name">Окна Хаус -</p>
+          <p class="slogan-1">Профессиональный подход к остеклению</p>
+        </div>
+        <div class="advantages-2">
+          <div class="slogan-price">
+            <img src="./assets/images/window.svg" alt="best prises" />
+            <p>Современные окна и балконные конструкции по доступным ценам</p>
+          </div>
+          <div class="slogan-prof">
+            <img src="./assets/images/hands.svg" alt="professional" />
+            <p>Квалифицированный подход к решению задач любой сложности</p>
+          </div>
+          <div class="slogan-quality">
+            <img src="./assets/images/board.svg" alt="best quality" />
+            <p>Гарантия высочайшего качества нашей продукции</p>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <form action="#" method="post">
+          <p>Вызвать замерщика на дом</p>
+          <input
+            class="form1 form2"
+            id="input-name"
+            type="text"
+            placeholder="Представьтесь, пожалуйста"
+          />
+          <input
+            class="form1 form2"
+            id="input-tel"
+            type="tel"
+            placeholder="Номер телефона"
+          />
+          <input
+            class="form1 form2"
+            id="input-email"
+            type="email"
+            placeholder="E-mail"
+          />
+          <div class="checkbox">
+            <input type="checkbox" />
+            Согласен на обработку персональных данных в соответствии с
+            <a href="#">политикой конфиденциальности</a>
+          </div>
+          <button id="sent-order">Отправить заявку</button>
+        </form>
+        <img id="ruler" src="./assets/images/ruler.png" alt="ruler" />
+      </div>
+    </main>
+  </body>
+</html>
