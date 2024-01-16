@@ -1,13 +1,7 @@
-/* * {
-  box-sizing: border-box;
-} */
-
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* padding-left: 360px;
-  padding-right: 360px; */
 }
 
 .logo {
@@ -100,7 +94,6 @@ button:hover {
 .advantages {
   width: 590px;
   height: 300px;
-  /* margin-left: 400px; */
 }
 
 .advantages-2 {
@@ -126,7 +119,6 @@ button:hover {
 .form {
   width: 406px;
   height: 428px;
-  /* margin-right: 400px; */
   padding-top: 40px;
   border-radius: 10px;
   background: #fff;
